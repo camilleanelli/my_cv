@@ -10,7 +10,7 @@ header {
 }
 
 img {
-	width: 150px;
+	width: 160px;
 	height: 150px;
 	border-radius: 150px;
 
@@ -41,18 +41,16 @@ a:hover {
 }
 
 
-tr {
-	margin: 10px;
-}
 .other {
 	
 	margin: 50px auto;
 	text-align: center;
 	border-radius: 50px;
 	border: 1px solid black;
-	padding: 5px;
+	padding: 10px;
 	width: 560px;
 }
+
 
 footer {
 	font-size: 30px;
@@ -67,6 +65,8 @@ footer {
 	margin: 20px;
 }
 
+
+
 .git {
 
 	width: 30px;
@@ -75,6 +75,7 @@ footer {
 }
 
 .at {
+
 	width: 40px;
 	height: 40px;
 }
