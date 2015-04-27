@@ -1,26 +1,40 @@
 
-body {
-
-	font-family: 'Open Sans' sans-serif;
-	text-align: center;
-}
-
 header {
-   
-	text-align: center;
+	position: fixed;
+	width: 100%;
+	font-family: 'Open sans' sans-serif;
+    background-color: #03A6A6;
+    text-align: center;
+    color: grey;
 	margin-bottom: 50px;
-	
-	
+
+}
+ 		
+h1 {
+	text-shadow: 2px 2px 6px black;
 }
 
-img {
+.tof {
+	box-shadow: 2px 2px 2px black;
 	width: 160px;
 	height: 150px;
 	border-radius: 150px;
+}
 
+
+.foot img{
+	transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.foot img:hover{
+  transform: rotate(10deg) scale(1.1);
+  -webkit-transform: rotate(10deg) scale(1.1);
 }
 
 .content{
+    padding-top : 250px;
+    font-family: 'Open sans' sans-serif;
 	text-align: center;
 	text-decoration: none;
 	
@@ -49,6 +63,7 @@ a:hover {
 	
 	margin: 50px auto;
 	text-align: center;
+	font-family: 'Open sans' sans-serif;
 	border-radius: 50px;
 	border: 1px solid black;
 	padding: 10px;
@@ -58,6 +73,7 @@ a:hover {
 
 footer {
 	font-size: 30px;
+	font-family: 'Open sans' sans-serif;
 	height: 300px;
 	margin: auto;
 	text-align: center;
