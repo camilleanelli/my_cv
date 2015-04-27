@@ -66,12 +66,9 @@ a:hover {
 	color: grey;
 }
 
-.courses {
 
-	background-color: white;
-}
 
-.job {
+.white {
 	background-color: white;
 }
 
@@ -107,7 +104,7 @@ footer {
 .foot i {
 	
 	font-size: 30px;
-	color: black;
+	color: blue;
 	margin: 20px;
 }
 
