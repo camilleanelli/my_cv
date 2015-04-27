@@ -1,4 +1,7 @@
 
+body {
+	margin: 0;
+}
 header {
 	position: fixed;
 	width: 100%;
@@ -28,12 +31,12 @@ h2 {
 }
 
 
-.foot img{
+.foot i{
 	transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
 }
 
-.foot img:hover{
+.foot i:hover{
   transform: rotate(10deg) scale(1.1);
   -webkit-transform: rotate(10deg) scale(1.1);
 }
@@ -84,11 +87,9 @@ a:hover {
 .other {
 	
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 30px;
 	text-align: center;
 	font-family: 'Open sans' sans-serif;
-	border-radius: 50px;
-	border: 1px solid black;
 	padding: 10px;
 	width: 560px;
 }
@@ -103,28 +104,16 @@ footer {
 	text-align: center;
 }
 
-.foot li {
+.foot i {
 	
-	display: inline-block;
+	font-size: 30px;
+	color: black;
 	margin: 20px;
 }
 
-
-
-.git {
-
-	width: 30px;
-	height: 30px;
-
+.foot li {
+	display: inline-block;
 }
 
-.at {
 
-	width: 40px;
-	height: 40px;
-}
 
-.twit {
-	width: 32px;
-	height: 32px;
-}
