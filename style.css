@@ -12,9 +12,15 @@ header {
  		
 h1 {
 	text-shadow: 2px 2px 6px black;
+	font-family: 'Montserrat';
+}
+
+h2 {
+	color: grey;
 }
 
 .tof {
+	margin-bottom: 10px;
 	box-shadow: 2px 2px 2px black;
 	width: 160px;
 	height: 150px;
@@ -33,7 +39,10 @@ h1 {
 }
 
 .content{
+    background-color: grey;
     padding-top : 250px;
+    padding-left: 100px;
+    padding-right: 100px;
     font-family: 'Open sans' sans-serif;
 	text-align: center;
 	text-decoration: none;
@@ -54,14 +63,28 @@ a:hover {
 	color: grey;
 }
 
+.courses {
+
+	background-color: white;
+}
+
+.job {
+	background-color: white;
+}
+
 .space {
 	padding: 50px 50px;
 }
 
+.tab {
+	margin-top: 5px;
+	background-color: white;
 
+}
 .other {
 	
-	margin: 50px auto;
+	margin: auto;
+	margin-top: 10px;
 	text-align: center;
 	font-family: 'Open sans' sans-serif;
 	border-radius: 50px;
@@ -74,8 +97,9 @@ a:hover {
 footer {
 	font-size: 30px;
 	font-family: 'Open sans' sans-serif;
-	height: 300px;
+	height: 200px;
 	margin: auto;
+	background-color: grey;
 	text-align: center;
 }
 
